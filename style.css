@@ -23,6 +23,34 @@
     padding: 16px 20px;
     border: none;
 }
+span{
+    color: #E55473;
+}
+/* nav part */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272727;
+}
+.logo h1{
+    color: #fff;
+    padding-left: 100px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.nav-items ul{
+    display: flex;
+    color: #FFF;
+
+}
+.nav-items ul li {
+    list-style: none;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
 /* banner part */
 .banner{
     display: flex;
@@ -55,6 +83,7 @@
     font-size: 40px;
     font-weight: 700;
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 .feature-dis{
     color: rgba(39, 39, 39, 0.60);
@@ -62,7 +91,9 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 15px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 .box-container{
     display: flex;
@@ -155,6 +186,7 @@
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+    margin-bottom:20px ;
 }
 .insta-dis{
     color: rgba(39, 39, 39, 0.60);
@@ -162,7 +194,9 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin: 20px 0;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 .card-pic{
     margin-top: 45px;
