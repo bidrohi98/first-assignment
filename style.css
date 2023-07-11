@@ -257,6 +257,10 @@ span{
     margin-top: 20px;
     margin-left: 37%;
 }
+.btn:hover{
+    background-color: #FFF;
+    color: #E55473;
+}
 /* latest deal part */
 .latest-deal-container{
     background-image: url("./Flower Asset/Rectangle\ 9.png");
