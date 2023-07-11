@@ -58,7 +58,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap :20px;
+    gap :30px;
     margin-top: 40px;
 }
 .box-1{
@@ -100,5 +100,40 @@
 .box-model h4{
     text-align: center;
     margin-top: 30px;
+}
+/* hot deal part  */
+.hot-deal-container{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+   gap: 150px;
+   
+    
+}
+.deal-info{
+    width: 50%;
+    text-align: center;
+}
+.deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+    
+}
+.deal-dis{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.hot-deal-container .deal-pic{
+    height: 350px;
+
 }
 
