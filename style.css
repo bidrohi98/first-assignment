@@ -162,16 +162,18 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 10px;
+    margin: 20px 0;
 }
 .card-pic{
     margin-top: 45px;
     display: flex;
     justify-content: center;
     gap: 20px;
+    width: 80%;
+    margin: auto;
 }
 .card-pic img{
-    width: 250px;
+    width: 240px;
     height: 300px;
     margin-bottom: 100px;
 }
@@ -186,7 +188,7 @@
 .l-deal-title{
     color: #272727;
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 800;
     padding-top: 40px;
 }
@@ -195,8 +197,7 @@
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
-    margin-top: 10px;
+    margin-bottom:10px;
 }
 form{
     padding-left: 200px;
@@ -221,4 +222,31 @@ form ::placeholder{
     font-weight: 400;
     color: rgba(39, 39, 39, 0.60);
     
+}
+/* footer part */
+.footer-container{
+    background: #111010;
+    text-align: center;
+    margin-top:120px ;
+    padding: 120px 0;
+}
+.f-title{
+    color: #fff; 
+    font-size: 48px;
+    font-weight: 800;
+}
+.f-dis{
+    color: rgba(255, 255, 255, 0.90);
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.f-copy{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
 }
